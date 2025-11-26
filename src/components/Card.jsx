@@ -20,6 +20,8 @@ const ContactCard = (props) => {
                         <span className="text-muted"><i className="fa-solid fa-envelope"></i> {props.informacion.email}</span>
                     </div>
                     <div className="col-3">
+
+                        
                         <Link to={'/edit-contact/' + props.informacion.id}>
                             <span className="me-4 text-dark"><i className="fa-solid fa-pen"></i></span>
                         </Link>
